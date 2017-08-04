@@ -40,7 +40,7 @@ void printll(Node * head)
 	Node * cur = head;
 	while (cur) // upto when cur exist
 	{
-		cout << cur->Data;
+		cout << cur->Data<<"-->";
 		cur = cur->next; // this next pointer will movw cur to next node
 	}
 }
