@@ -31,7 +31,7 @@ public:
 	void QueueIN(int N)
 	{	// CREATING THE THE NEW NODE
 		Node * temp = new Node;
-		// SETTINH UP THE DATA TO THE PASSED VALUE
+		// SETTING UP THE DATA TO THE PASSED VALUE
 		temp->data = N;
 		// POINTING TO NULL
 		temp->next = NULL;
